@@ -1,11 +1,11 @@
 {
-    "name": "anacronistta",
-    "short_name": "anacronistta",
+    "name": "Anacronistta",
+    "short_name": "Anacronistta",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#ECF0F3",
+    "theme_color": "#2BB3C5",
+    "description": "Demo simples e offline para controle pessoal de ponto.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

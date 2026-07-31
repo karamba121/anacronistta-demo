@@ -158,6 +158,34 @@ flutter build windows
 flutter build apk
 ```
 
+## Deploy gratuito no GitHub Pages
+
+O projeto contém o workflow
+`.github/workflows/deploy-pages.yml`, responsável por analisar, testar,
+compilar e publicar automaticamente a versão Web no GitHub Pages.
+
+O deploy é executado:
+
+- a cada atualização enviada para a branch `master`;
+- manualmente pela opção **Run workflow** na aba Actions.
+
+O caminho base é calculado pelo próprio workflow. Assim, a publicação funciona
+tanto em `usuario.github.io/nome-do-repositorio/` quanto em um repositório raiz
+chamado `usuario.github.io`.
+
+### Ativação inicial
+
+1. Envie este projeto para a branch `master` do repositório público no GitHub.
+2. No repositório, abra **Settings > Pages**.
+3. Em **Build and deployment**, selecione **GitHub Actions** como fonte.
+4. Abra a aba **Actions** e acompanhe o workflow
+   **Deploy Flutter Web to GitHub Pages**.
+5. Ao final, a URL publicada aparecerá no ambiente `github-pages` e na página
+   de configurações do Pages.
+
+Não é necessário manter uma branch `gh-pages`. O artefato estático é publicado
+diretamente pelas Actions oficiais do GitHub.
+
 ## Limitações intencionais
 
 Esta demo não possui:
