@@ -1,5 +1,13 @@
 # Anacronistta Demo
 
+[![Flutter CI](https://github.com/karamba121/anacronistta-demo/actions/workflows/flutter.yml/badge.svg?branch=main)](https://github.com/karamba121/anacronistta-demo/actions/workflows/flutter.yml)
+[![Deploy](https://github.com/karamba121/anacronistta-demo/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/karamba121/anacronistta-demo/actions/workflows/deploy.yml)
+![Status](https://img.shields.io/badge/status-demo%20funcional-brightgreen)
+![Flutter](https://img.shields.io/badge/Flutter-stable-02569B?logo=flutter)
+![Dart](https://img.shields.io/badge/Dart-stable-0175C2?logo=dart)
+![Platforms](https://img.shields.io/badge/platforms-Web%20%7C%20Android%20%7C%20Windows-blue)
+![License](https://img.shields.io/github/license/karamba121/anacronistta-demo)
+
 O Anacronistta é uma aplicação simples para controle pessoal de ponto. O
 objetivo desta versão é oferecer uma experiência direta para registrar a
 jornada diária, acompanhar horas trabalhadas e manter uma escala semanal sem
