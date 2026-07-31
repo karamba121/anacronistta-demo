@@ -1,0 +1,8 @@
+Frontend/src/assets/** linguist-vendored
+Frontend/dist/** linguist-generated
+android/** linguist-generated
+ios/** linguist-generated
+linux/** linguist-generated
+macos/** linguist-generated
+windows/** linguist-generated
+web/** linguist-generated
